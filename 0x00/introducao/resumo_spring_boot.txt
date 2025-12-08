@@ -1,0 +1,11 @@
+Spring Boot é um framework do ecossistema Spring que simplifica drasticamente o desenvolvimento de aplicações Java. Ele elimina grande parte da configuração manual tradicional, permitindo que desenvolvedores criem aplicações prontas para produção rapidamente, com convenções inteligentes, servidor embutido e um conjunto de ferramentas que aceleram o ciclo de desenvolvimento.
+Entre os benefícios e recursos do Spring Boot, destacam-se:
+Autoconfiguração: o framework detecta automaticamente as dependências adicionadas e configura os componentes necessários sem intervenção manual.
+Servidores embarcados (Tomcat, Jetty, Undertow): não é preciso instalar servidores externos para rodar a aplicação.
+Actuator: fornece endpoints prontos para monitoramento, métricas e health-check.
+Starter dependencies: coleções organizadas de dependências para adicionar funcionalidades rapidamente (por exemplo, spring-boot-starter-web, spring-boot-starter-data-jpa).
+Foco em produtividade: menos código boilerplate, inicialização rápida e fácil integração com o ecossistema Spring.
+A adição de novas dependências no Spring Boot é feita principalmente pelo pom.xml (se usar Maven) ou build.gradle (se usar Gradle). Basta incluir o starter desejado, como spring-boot-starter-data-jpa ou bibliotecas como Hibernate. O Spring Boot reconhece esses starters e realiza a autoconfiguração automaticamente. Ferramentas como Spring Initializr ou IDEs também ajudam adicionando dependências via interface gráfica.
+Na minha opnião a melhor IDE para se trabalhar com Spring Boot é o IntelliJ pelos seguintes motivos:
+Oferece a melhor integração com o ecossistema Spring — autocompletes inteligentes, navegação profunda, suporte avançado a JPA/Hibernate e ferramentas de inspeção.
+O Spring Initializr é uma ferramenta oficial usada para gerar rapidamente a estrutura base de um projeto Spring Boot. Com ele você escolhe a versão do Java, dependências, tipo de empacotamento, gerenciador de build e outras opções — e recebe um projeto pronto para começar a desenvolver. É a maneira mais rápida e padrão de iniciar um novo projeto no ecossistema Spring.

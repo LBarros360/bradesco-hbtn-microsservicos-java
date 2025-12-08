@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/messages")
 public class HelloWorldResource {
 
-    @GetMapping("/welcome")
+    @GetMapping("/home")
     public String simpleMessageWelcome() {
 
         return "PROJETO MAVEN (SPRING INITIALIZR) CRIADO COM SUCESSO !!!";
 
     }
 }
+
